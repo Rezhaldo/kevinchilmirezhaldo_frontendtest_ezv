@@ -26,23 +26,6 @@ This is a simple yet complete Todo App built with **React**, **TypeScript**, **R
 | React Hot Toast     | Toast messages          |
 | React Icons         | Action icons (Edit/Delete) |
 
----
-
-### ✅ Submission Checklist
-
-| Task                                  | Done |
-|---------------------------------------|------|
-| Setup Redux Toolkit + RTK Query       | ✅   |
-| Connected API to fetch todos          | ✅   |
-| Add new todo item                     | ✅   |
-| Edit a todo item                      | ✅   |
-| Delete a todo item                    | ✅   |
-| Modal for edit and delete             | ✅   |
-| Toast notifications on actions        | ✅   |
-| Paginated fetch using `_page` & `_limit` | ✅   |
-| UI responsiveness with Tailwind       | ✅   |
-| Final code cleanup                    | ✅   |
-| README ready for submission           | ✅   |
 
 ---
 
