@@ -48,7 +48,7 @@ const AddTask: React.FC<Props> = () => {
               className="input w-full"
               disabled={isLoading}
             />
-            <button type="submit" className="btn" disabled={isLoading}>
+            <button type="submit" className="btn btn-primary" disabled={isLoading}>
               {isLoading ? 'Adding...' : 'Submit'}
             </button>
             {error && (

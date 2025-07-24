@@ -61,7 +61,7 @@ const TaskItem: React.FC<Props> = ({ task }) => {
                         <h3 className="font-bold text-lg">Edit Task</h3>
                         <div className="modal-action">
                             <input value={taskToEdit} onChange={e => setTaskToEdit(e.target.value)} type="text" placeholder="Type here" className="input w-full" />
-                            <button type="submit" className="btn">{isEditing ? "Saving..." : "Submit"}
+                            <button type="submit" className="btn btn-primary">{isEditing ? "Saving..." : "Submit"}
                             </button>
                         </div>
                     </form>
