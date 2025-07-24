@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📘 README – Todo App (RTK Query + Tailwind + Modal)
 
-## Getting Started
+This is a simple yet complete Todo App built with **React**, **TypeScript**, **RTK Query**, and **Tailwind CSS**. It uses [`jsonplaceholder.typicode.com`](https://jsonplaceholder.typicode.com/) as the fake REST API.
 
-First, run the development server:
+### ✨ Features
+
+- ✅ Fetch todos with pagination
+- ✅ Add a new todo task
+- ✅ Edit an existing task (title)
+- ✅ Delete a task with confirmation
+- ✅ Optimistic UI updates using RTK Query
+- ✅ Toast notifications for user feedback
+- ✅ Reusable modal component for edit & delete
+- ✅ Clean and responsive UI with Tailwind CSS
+
+---
+
+### 📦 Tech Stack
+
+| Tech                | Usage                    |
+|---------------------|--------------------------|
+| React + TypeScript | Frontend framework       |
+| Redux Toolkit       | State & API management  |
+| RTK Query           | Data fetching & caching |
+| Tailwind CSS        | Styling                 |
+| React Hot Toast     | Toast messages          |
+| React Icons         | Action icons (Edit/Delete) |
+
+---
+
+### ✅ Submission Checklist
+
+| Task                                  | Done |
+|---------------------------------------|------|
+| Setup Redux Toolkit + RTK Query       | ✅   |
+| Connected API to fetch todos          | ✅   |
+| Add new todo item                     | ✅   |
+| Edit a todo item                      | ✅   |
+| Delete a todo item                    | ✅   |
+| Modal for edit and delete             | ✅   |
+| Toast notifications on actions        | ✅   |
+| Paginated fetch using `_page` & `_limit` | ✅   |
+| UI responsiveness with Tailwind       | ✅   |
+| Final code cleanup                    | ✅   |
+| README ready for submission           | ✅   |
+
+---
+
+![App Screenshot](./public/screenshots/dashboard-demo.png)
+![App Screenshot](./public/screenshots/delete-demo.png)
+![App Screenshot](./public/screenshots/edit-demo.png)
+![App Screenshot](./public/screenshots/success-delete.png)
+
+
+### 🚀 How to Run
 
 ```bash
+# Install dependencies
+npm install
+
+# Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
